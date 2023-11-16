@@ -1,0 +1,20 @@
+- 一、fastText 动机篇
+    - 1.1 word-level Model 是什么？
+    - 1.2 word-level Model 存在什么问题？
+    - 1.3 Character-Level Model 是什么？
+    - 1.4 Character-Level Model 优点？
+    - 1.5 Character-Level Model 存在问题？
+    - 1.6 Character-Level Model 问题的解决方法？
+- 二、 词内的n-gram信息(subword n-gram information) 介绍篇
+    - 2.1 引言
+    - 2.2 fastText 是什么?
+    - 2.3 fastText 的结构是什么样?
+    - 2.4 为什么 fastText 要使用词内的n-gram信息(subword n-gram information)?
+    - 2.5 fastText 词内的n-gram信息(subword n-gram information) 介绍?
+    - 2.6 fastText 词内的n-gram信息 的 训练过程?
+    - 2.7 fastText 词内的n-gram信息 存在问题?
+- 三、 层次化Softmax回归(Hierarchical Softmax) 介绍篇
+    - 3.1 为什么要用 层次化Softmax回归(Hierarchical Softmax) ？
+    - 3.2 层次化Softmax回归(Hierarchical Softmax) 的思想是什么？
+    - 3.3 层次化Softmax回归(Hierarchical Softmax) 的步骤？
+- 四、fastText 存在问题？

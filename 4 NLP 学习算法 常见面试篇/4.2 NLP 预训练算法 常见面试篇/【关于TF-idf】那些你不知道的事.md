@@ -1,0 +1,14 @@
+- 一、one-hot 篇
+    - 1.1 为什么有 one-hot ？
+    - 1.2 one-hot 是什么?
+    - 1.3 one-hot 有什么特点?
+    - 1.4 one-hot 存在哪些问题?
+- 二、TF-IDF 篇
+    - 2.1 什么是 TF-IDF？
+    - 2.2 TF-IDF 如何评估词的重要程度？
+    - 2.3 TF-IDF 的思想是什么？
+    - 2.4 TF-IDF 的计算公式是什么？
+    - 2.5 TF-IDF 怎么描述？
+    - 2.6 TF-IDF 的优点是什么？
+    - 2.7 TF-IDF 的缺点是什么？
+    - 2.8 TF-IDF 的应用？

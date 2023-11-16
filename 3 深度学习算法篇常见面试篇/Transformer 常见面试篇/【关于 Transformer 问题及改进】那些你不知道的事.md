@@ -1,0 +1,12 @@
+- 一、Transformer 问题篇
+    - 1.1 既然 Transformer 怎么牛逼，是否还存在一些问题？
+- 二、每个问题的解决方法是什么？
+    - 2.1 问题一：Transformer 不能很好的处理超长输入问题
+        - 2.1.1 Transformer 固定了句子长度？
+        - 2.1.2 Transformer 固定了句子长度 的目的是什么？
+        - 2.1.3 Transformer 针对该问题的处理方法？
+    - 2.2 问题二：Transformer 方向信息以及相对位置 的 缺失 问题
+    - 2.3 问题三：缺少Recurrent Inductive Bias
+    - 问题四：问题四：Transformer是非图灵完备的： 非图灵完备通俗的理解，就是无法解决所有的问题
+    - 问题五：transformer缺少conditional computation；
+    - 问题六：transformer 时间复杂度 和 空间复杂度 过大问题；

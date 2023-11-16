@@ -1,0 +1,31 @@
+- 一、动机篇
+    - 1.1 【演变史】one-hot 存在问题?
+    - 1.2【演变史】wordvec 存在问题?
+    - 1.3【演变史】fastText 存在问题?
+    - 1.4【演变史】elmo 存在问题?
+- 二、Bert 篇
+    - 2.1 Bert 介绍篇
+        - 2.1.1【BERT】Bert 是什么?
+        - 2.1.2【BERT】Bert 三个关键点？
+    - 2.2 Bert 输入输出表征篇
+        - 2.2.1 【BERT】Bert 输入输出表征长啥样？
+    - 2.3 【BERT】Bert 预训练篇
+        - 2.3.1 【BERT】Bert 预训练任务介绍
+        - 2.3.2 【BERT】Bert 预训练任务 之 Masked LM 篇
+            - 2.3.2.1 【BERT】 Bert 为什么需要预训练任务 Masked LM ？
+            - 2.3.2.2 【BERT】 Bert 预训练任务 Masked LM 怎么做？
+            - 2.3.2.3 【BERT】 Bert 预训练任务 Masked LM 存在问题？
+            - 2.3.2.4 【BERT】 预训练和微调之间的不匹配的解决方法？
+        - 2.3.3 【BERT】Bert 预训练任务 之 Next Sentence Prediction 篇
+            - 2.3.3.1 【BERT】Bert 为什么需要预训练任务 Next Sentence Prediction ？
+            - 2.3.3.2 【BERT】 Bert 预训练任务 Next Sentence Prediction 怎么做？
+    - 2.4 【BERT】 fine-turning 篇？
+        - 2.4.1 【BERT】为什么 Bert 需要 fine-turning？
+        - 2.4.2 【BERT】 Bert 如何 fine-turning？
+    - 2.5 【BERT】 Bert 损失函数篇？
+        - 2.5.1 【BERT】BERT的两个预训练任务对应的损失函数是什么(用公式形式展示)？
+- 三、 对比篇？
+    - 3.1 【对比】多义词问题是什么？
+    - 3.2 【对比】word2vec 为什么解决不了多义词问题？
+    - 3.3 【对比】GPT和BERT有什么不同？
+    - 3.4 【对比】为什么 elmo、GPT、Bert能够解决多义词问题？（以 elmo 为例）

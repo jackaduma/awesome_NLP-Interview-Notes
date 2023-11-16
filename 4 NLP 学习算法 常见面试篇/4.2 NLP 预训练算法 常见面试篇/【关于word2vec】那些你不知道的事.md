@@ -1,0 +1,18 @@
+- 一、Wordvec 介绍篇
+    - 1.1 Wordvec 指什么?
+    - 1.2 Wordvec 中 CBOW 指什么?
+    - 1.3 Wordvec 中 Skip-gram 指什么?
+    - 1.4 CBOW vs Skip-gram 哪一个好？
+- 二、Wordvec 优化篇
+    - 2.1 Word2vec 中 霍夫曼树 是什么？
+    - 2.2 Word2vec 中 为什么要使用 霍夫曼树？
+    - 2.3 Word2vec 中使用 霍夫曼树 的好处？
+    - 2.4 为什么 Word2vec 中会用到 负采样？
+    - 2.5 Word2vec 中会用到 负采样 是什么样？
+    - 2.6 Word2vec 中 负采样 的采样方式？
+- 三、Wordvec 对比篇
+    - 3.1 word2vec和NNLM对比有什么区别？（word2vec vs NNLM）
+    - 3.2 word2vec和tf-idf 在相似度计算时的区别？
+- 四、word2vec 实战篇
+    - 4.1 word2vec训练trick，window设置多大？
+    - 4.1 word2vec训练trick，词向量纬度，大与小有什么影响，还有其他参数？

@@ -1,0 +1,46 @@
+- 一、动机篇
+    - 1.1 为什么要有 Transformer?
+    - 1.2 Transformer 作用是什么？
+- 二、整体结构篇
+    - 2.1 Transformer 整体结构是怎么样？
+    - 2.2 Transformer-encoder 结构怎么样？
+    - 2.3 Transformer-decoder 结构怎么样?
+- 三、模块篇
+    - 3.1 self-attention 模块
+        - 3.1.1 传统 attention 是什么?
+        - 3.1.2 为什么 会有self-attention?
+        - 3.1.3 self-attention 的核心思想是什么?
+        - 3.1.4 self-attention 的目的是什么?
+        - 3.1.5 self-attention 的怎么计算的?
+        - 3.1.6 self-attention 为什么Q和K使用不同的权重矩阵生成，为何不能使用同一个值进行自身的点乘？
+        - 3.1.7 为什么采用点积模型的 self-attention 而不采用加性模型？
+        - 3.1.8 Transformer 中在计算 self-attention 时为什么要除以 d？
+        - 3.1.9 self-attention 如何解决长距离依赖问题？
+        - 3.1.10 self-attention 如何并行化？
+    - 3.2 multi-head attention 模块
+        - 3.2.1 multi-head attention 的思路是什么样?
+        - 3.2.2 multi-head attention 的步骤是什么样?
+        - 3.2.3 Transformer为何使用多头注意力机制？（为什么不使用一个头）
+        - 3.2.4 为什么在进行多头注意力的时候需要对每个head进行降维？
+        - 3.2.5 multi-head attention 代码介绍
+    - 3.3 位置编码（Position encoding）模块
+        - 3.3.1 为什么要 加入 位置编码（Position encoding） ？
+        - 3.3.2 位置编码（Position encoding）的思路是什么 ？
+        - 3.3.3 位置编码（Position encoding）的作用是什么 ？
+        - 3.3.4 位置编码（Position encoding）的步骤是什么 ？
+        - 3.3.5 Position encoding为什么选择相加而不是拼接呢？
+        - 3.3.6 Position encoding和 Position embedding的区别？
+        - 3.3.7 为何17年提出Transformer时采用的是 Position Encoder 而不是Position Embedding？而Bert却采用的是 Position Embedding ？
+        - 3.3.8 位置编码（Position encoding）的代码介绍
+    - 3.4 残差模块模块
+        - 3.4.1 为什么要 加入 残差模块？
+    - 3.5 Layer normalization 模块
+        - 3.5.1 为什么要 加入 Layer normalization 模块？
+        - 3.5.2 Layer normalization 模块的是什么？
+        - 3.5.3 Batch normalization 和 Layer normalization 的区别？
+        - 3.5.4 Transformer 中为什么要舍弃 Batch normalization 改用 Layer normalization 呢?
+        - 3.5.5 Layer normalization 模块代码介绍
+    - 3.6 Mask 模块
+        - 3.6.1 什么是 Mask？
+        - 3.6.2 Transformer 中用到 几种 Mask？
+        - 3.6.3 能不能介绍一下 Transformer 中用到几种 Mask？
